@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 38px;
+  font-family: 'Bree Serif';
+}
+
+.search-container {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #7b8794;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 3px;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  color: #7b8794;
+  background-color: transparent;
+  margin-left: 9px;
+  font-weight: 500;
+}
+
+.search {
+  height: 25px;
+  width: 25px;
+}
+
+.tabs-category-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-list {
+  width: 300px;
+  height: 27px;
+  box-shadow: 0px 4px 16px 0px #7b8794;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.apps-container {
+  margin-top: 18px;
+  width: 50%;
+}
+
+.apps-list {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
